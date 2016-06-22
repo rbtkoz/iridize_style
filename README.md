@@ -1,3 +1,3 @@
 #iridize style
 
-![alt text](iridize_style/design.png "sample")
+![alt text](https://raw.githubusercontent.com/rbtkoz/iridize_style/master/design.png "sample")
