@@ -17,8 +17,72 @@
      All of your CSS styles must go between the IRIDIZE_CUSTOM_THEME_START and IRIDIZE_CUSTOM_THEME_END comment lines.
      **/
     /*IRIDIZE_CUSTOM_THEME_START*/
-    
-    /*BASE IRIDIZE THEME CSS*/
+
+
+    div.sttip div.tooltip a,
+    div.sttip div.tooltip div.popover-content,
+    div.sttip div.tooltip div.popover-inner,
+    div.sttip div.tooltip div.stFooter,
+    div.sttip .panel-container .guide-content,
+    div.sttip .panel-container .guide-footer,
+    div.sttip .panel-container .guide-header,
+    div.sttip .panel-container .flap > .flap-text {
+        font-family: Helvetica, Arial, sans-serif !important;
+    }
+
+    div.sttip div.tooltip div.popover-content,
+    div.sttip h1,
+    div.sttip h2,
+    div.sttip h3,
+    div.sttip .panel-container .guide-content,
+    div.sttip div.tooltip div.popover-title a[data-iridize-role=closeBt]
+    {
+        color:#726F73 !important;
+    }
+
+
+    div.sttip div.tooltip div.stFooter,div.sttip div.tooltip div.stFooter .next-btn {
+        /*height:30px;*/
+        background:#F90A0A !important;
+
+    }
+
+   div.tooltip-arrow.second-arrow{
+       color:#FFFFFF !important;
+   }
+
+    div.sttip div.tooltip.in.top div.tooltip-arrow,
+    div.sttip div.tooltip.in.bottom div.tooltip-arrow.second-arrow,
+    div.sttip div.tooltip.in.top.top-left div.tooltip-arrow.second-arrow {
+        border-top-color:#FFFFFF !important;
+    }
+
+    div.sttip div.tooltip div.popover-inner{
+        border-style: solid !important;
+        border-color:#F90A0A !important;
+    }
+
+    div.sttip .panel-container div.flap {
+        background:#F90A0A !important;
+    }
+
+    div.sttip .panel-container div.flap {
+        width: 100px !important;
+    }
+
+    div.sttip .panel-container .flap > .flap-text{
+        width:100% !important;
+        font-size: 19px !important;
+    }
+
+
+    div.sttip .panel-container,
+    div.sttip.panel.leftPanel{
+        width:400px !important;
+    }
+
+
+        /*BASE IRIDIZE THEME CSS*/
     
     div.sttip div.tooltip div.popover-inner {
         padding: 0px;
@@ -515,7 +579,7 @@ div.sttip .panel-container .guide-content .iridize-start-panel.walkthrough { bac
         border-right-color: rgba(150, 150, 150, .5);
         /*opacity:0.3;*/
     }
-    
+
     div.sttip div.tooltip.in.bottom div.tooltip-arrow {
         border-bottom-color: #C8C8C8;
         border-bottom-color: rgba(150, 150, 150, .5);
@@ -948,7 +1012,7 @@ div.sttip table, div.sttip tr, div.sttip td {
         <div class="sttip panel rightPanel panel-opened">
 			<div class="panel-container">
 				<div data-iridize-id="flap" class="flap">
-					<div data-iridize-id="flap-text" class="flap-text">H E L P</div>
+					<div data-iridize-id="flap-text" class="flap-text">Guide Me</div>
 				</div>
 				<div class="guide-list">
 					<div class="guide-header" data-iridize-id="guide-header-text">Interactive Guides</div>
@@ -982,7 +1046,7 @@ div.sttip table, div.sttip tr, div.sttip td {
         <div class="sttip panel leftPanel panel-opened">
 			<div class="panel-container">
 				<div data-iridize-id="flap" class="flap">
-					<div data-iridize-id="flap-text" class="flap-text">H E L P</div>
+					<div data-iridize-id="flap-text" class="flap-text">Guide Me</div>
 				</div>
 				<div class="guide-list">
 					<div class="guide-header" data-iridize-id="guide-header-text">Interactive Guides</div>
